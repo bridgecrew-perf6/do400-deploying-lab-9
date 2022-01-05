@@ -11,9 +11,9 @@ pipeline {
   stages {
 
     stage ('Test') {
-
+       steps { 
        sh './mvnw verify'
-
+        }
       }
 
     }

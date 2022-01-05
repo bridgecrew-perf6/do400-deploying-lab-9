@@ -16,7 +16,6 @@ environment { QUAY = credentials('QUAY_USER') }
         }
       }
 
-    }
 
     stage ('Build&Push') {
 
@@ -39,5 +38,5 @@ environment { QUAY = credentials('QUAY_USER') }
      '''
 	}
 	}
-
+}
 }
